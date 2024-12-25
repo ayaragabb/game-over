@@ -1,0 +1,78 @@
+body {
+  background-color: #313439;
+}
+
+.nav-bg {
+  background-color: #3a497b;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+  color: #09c !important;
+  transition: color 0.5s;
+}
+
+.navbar {
+  border-radius: 10px;
+  margin: 0 80px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+main {
+  margin-top: 50px;
+}
+.my-card {
+  background-color: transparent;
+}
+.my-card .card-title {
+  color: #fff;
+}
+.my-card p {
+  color: gray;
+}
+
+.my-card {
+  filter: grayscale(0.7);
+  transition: transform 0.5s, filter 0.5s 0.1s;
+  cursor: pointer;
+}
+
+.my-card:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+
+.details {
+  backdrop-filter: blur(4px);
+}
+.details h3,
+h6,
+p,
+h2 {
+  color: #fff;
+}
+
+.details span {
+  color: #000;
+  background-color: #09c;
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+#myBtn {
+  color: #fff;
+  border: 2px solid #ffc107;
+  transition: background-color 0.3s;
+}
+#myBtn:hover {
+  background-color: #ffc107;
+}
+.details i {
+  color: gray;
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  cursor: pointer;
+}
